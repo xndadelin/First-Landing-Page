@@ -87,8 +87,8 @@ body{
     justify-content: center;
 }
 .placeholder{
-    width: 520px !important;
-    height: 225px !important;
+    width: 520px;
+    height: 225px;
 }
 .images{
     margin-top: 60px;
@@ -215,4 +215,8 @@ body{
 }
 .info {
     justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
