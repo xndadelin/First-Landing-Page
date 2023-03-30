@@ -55,6 +55,7 @@ body{
     height: 30px;
     width: 100px;
     border: none;
+    align-self: flex-end;
 }
 .button-sign-up{
     margin-top: 10px;
@@ -85,6 +86,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.placeholder{
+    width: 520px;
+    height: 225px;
+}
 .images{
     margin-top: 60px;
     display: flex;
@@ -108,7 +113,7 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-img{
+.capy{
     height: 155px;
     width: 150px;
     border-radius: 15px;
@@ -119,6 +124,8 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 156px;
+    height: 185px;
 }
 .subtext{
     display: flex;
@@ -126,6 +133,7 @@ img{
     font-weight: 500px;
     width: 150px;
     text-align: center;
+    justify-content: center;
     margin-top: 5px;
     color: grey;
 }
@@ -204,4 +212,7 @@ img{
     justify-content: center;
     color: #F9FAF8;
     height: 90px;
+}
+.info {
+    justify-content: space-between;
 }
