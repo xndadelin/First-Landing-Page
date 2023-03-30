@@ -87,8 +87,8 @@ body{
     justify-content: center;
 }
 .placeholder{
-    width: 520px;
-    height: 225px;
+    width: 520px !important;
+    height: 225px !important;
 }
 .images{
     margin-top: 60px;
