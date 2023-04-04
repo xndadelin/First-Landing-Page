@@ -7,7 +7,7 @@ body{
 }
 .subheader{
     display: flex;
-    height: 100px;
+    height: 70px;
     justify-content: space-between;
     margin-left: 100px;
 }
@@ -26,6 +26,7 @@ body{
     font-weight: 800;
     margin-left: 120px;
     font-family: 'Roboto', sans-serif;
+    align-self: center;
 }
 .headerlinks{
     display: flex;
@@ -34,6 +35,7 @@ body{
     gap: 30px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    align-self: center;
 }
 .content{
     display: flex;
